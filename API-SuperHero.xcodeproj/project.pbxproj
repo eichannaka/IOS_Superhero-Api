@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A49C5C9A2E16363700EFB49A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A49C5C992E16363700EFB49A /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A45A98C42E14D3BF005BF28B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49C5C9A2E16363700EFB49A /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "API-SuperHero";
 			packageProductDependencies = (
+				A49C5C992E16363700EFB49A /* SDWebImageSwiftUI */,
 			);
 			productName = "API-SuperHero";
 			productReference = A45A98B52E14D3BE005BF28B /* API-SuperHero.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = A45A98AC2E14D3BE005BF28B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A49C5C982E16324E00EFB49A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A45A98B62E14D3BE005BF28B /* Products */;
 			projectDirPath = "";
@@ -583,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A49C5C982E16324E00EFB49A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A49C5C992E16363700EFB49A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A49C5C982E16324E00EFB49A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A45A98AD2E14D3BE005BF28B /* Project object */;
 }
